@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /jump/app
+
+spring:
+  datasource:
+    driver-class-name: ${ESTATE_DB_DRIVER:org.h2.Driver}
+    url: ${ESTATE_DB_URL:jdbc:h2:mem:jump}
+    username: ${ESTATE_DB_USERNAME:sa}
+    password: ${ESTATE_DB_PASSWORD:}
+  jpa:
+    hibernate:
+      ddl-auto: ${DDL_AUTO:update}
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2

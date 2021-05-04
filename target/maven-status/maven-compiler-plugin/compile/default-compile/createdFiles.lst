@@ -1,0 +1,10 @@
+com\jump\jump\controller\EstateController.class
+com\jump\jump\repository\EstateRepository.class
+com\jump\jump\config\handler\dto\ErroDeFormularioDto.class
+com\jump\jump\config\SwaggerConfig.class
+com\jump\jump\service\EstateSpringDataJPAServiceImpl.class
+com\jump\jump\JumpApplication.class
+com\jump\jump\controller\dto\form\EstateForm.class
+com\jump\jump\controller\dto\EstateDto.class
+com\jump\jump\domain\Estate.class
+com\jump\jump\config\handler\ErroDeValidacao.class
